@@ -1,59 +1,13 @@
-## Introduction
+In Unity a parent GameObject can have **child GameObjects** that move, rotate and scale with it. This is really useful for positioning children in relation to their parent. A parent can have many Child GameObjects but a child can have only one parent:
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+![The Hierarchy window showing a Cube with two cylinder child GameObjects. In the Scene view it shows this forms a section of wall that would be moved and rotated as one.](images/wall-panel.png)
 
-### What you will make
+Models can be added to a scene as child GameObjects by dragging them from the Project window and placing them underneath the parent GameObject in the Hierarchy window. The child GameObject will be indented in the Hierarchy window structure:
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+![The Hierarchy widnow with Rat model GameObject and the Shield model as a child GameObject of the Rat.](images/shield-child.png)
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+![The Scene view showing the Shield GameObject positioned with the Rat GamObject.](images/shield-scene.png)
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+You can also right-click on the parent GameObject and create a new GameObject from a 3D shape. The new 3D shape GameObject will automatically be added as a child GameObject:
 
---- collapse ---
----
-title: What you will need
----
-### Hardware
-
-+ A computer or tablet capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+![The Hierarchy window showing a Cube with it's right-click menu extended and the 3D Object 'Sphere' highlighted.](images/right-click-child.png)
