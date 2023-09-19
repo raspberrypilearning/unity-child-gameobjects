@@ -1,13 +1,13 @@
-In Unity a parent GameObject can have **child GameObjects** that move, rotate and scale with it. This is really useful for positioning children in relation to their parent. A parent can have many Child GameObjects but a child can have only one parent:
+Dans Unity, un GameObject parent peut avoir des **GameObjects enfants** qui se déplacent, tournent et changent d'échelle avec lui. C'est vraiment utile pour positionner les enfants par rapport à leur parent. Un parent peut avoir plusieurs GameObjects enfants mais un enfant ne peut avoir qu'un seul parent :
 
-![The Hierarchy window showing a Cube with two cylinder child GameObjects. In the Scene view it shows this forms a section of wall that would be moved and rotated as one.](images/wall-panel.png)
+![La fenêtre Hierarchy montre un Cube avec deux GameObjects cylindriques enfants. Dans la vue Scene, on voit que cela forme une section de mur qui serait déplacée et tournée en une seule fois.](images/wall-panel.png)
 
-Models can be added to a scene as child GameObjects by dragging them from the Project window and placing them underneath the parent GameObject in the Hierarchy window. The child GameObject will be indented in the Hierarchy window structure:
+Les modèles peuvent être ajoutés à une scène en tant que GameObjects enfants en les faisant glisser depuis la fenêtre Project et en les plaçant sous le GameObject parent dans la fenêtre Hierarchy. Le GameObject enfant sera indenté dans la structure de la fenêtre Hierarchy :
 
-![The Hierarchy widnow with Rat model GameObject and the Shield model as a child GameObject of the Rat.](images/shield-child.png)
+![La fenêtre Hierarchy comprend le GameObject modèle Rat et le modèle Bouclier en tant que GameObject enfant du Rat.](images/shield-child.png)
 
-![The Scene view showing the Shield GameObject positioned with the Rat GamObject.](images/shield-scene.png)
+![La vue Scene montre le GameObject Bouclier positionné avec le GamObject Rat.](images/shield-scene.png)
 
-You can also right-click on the parent GameObject and create a new GameObject from a 3D shape. The new 3D shape GameObject will automatically be added as a child GameObject:
+Tu peux aussi faire un clic droit sur le GameObject parent et créer un nouveau GameObject à partir d'une forme 3D. Le nouveau GameObject de forme 3D sera automatiquement ajouté en tant que GameObject enfant :
 
-![The Hierarchy window showing a Cube with it's right-click menu extended and the 3D Object 'Sphere' highlighted.](images/right-click-child.png)
+![La fenêtre Hierarchy montrant un Cube avec son menu contextuel étendu et l'objet 3D « Sphère » en surbrillance.](images/right-click-child.png)
