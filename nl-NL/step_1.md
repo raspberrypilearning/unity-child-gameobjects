@@ -1,13 +1,13 @@
-In Unity, a parent GameObject can have **child GameObjects** that move, rotate, and scale with it. This is really useful for positioning the child objects in relation to their parent. A parent can have many child GameObjects, but a child can have only one parent:
+In Unity kan een bovenliggend GameObject **onderliggende GameObjects** hebben die meebewegen, roteren en schalen. Dit is echt handig voor het positioneren van de onderliggende (child) objecten ten opzichte van hun bovenliggende (parent) objecten. Een bovenliggend object kan veel onderliggende GameObjects hebben, maar een onderliggend object kan slechts één bovenliggend object hebben:
 
-![The Hierarchy window showing a Cube with two cylinder child GameObjects. In the Scene view, it shows this forms a section of wall that can be moved and rotated as one.](images/wall-panel.png)
+![Het Hierarchy venster met een Kubus met twee onderliggende cilinder GameObjects. De Scèneweergave toont dat dit een deel van de muur vormt die als één geheel wordt verplaatst en gedraaid.](images/wall-panel.png)
 
-Models can be added to a scene as child GameObjects by dragging them from the Project window and placing them underneath the parent GameObject in the Hierarchy window. The child GameObject will be indented in the Hierarchy window structure:
+Modellen kunnen als onderliggend GameObjects aan een scène worden toegevoegd door ze vanuit het venster Project te slepen en ze onder het bovenliggende GameObject in het Hierarchy venster te plaatsen. Het onderliggende GameObject wordt ingesprongen in de structuur van het Hierarchy venster:
 
-![The Hierarchy window with Rat model GameObject and the Shield model as a child GameObject of the Rat.](images/shield-child.png)
+![De Hierarchy window met Rat-model GameObject en het Shield-model als een onderliggend GameObject van de Rat.](images/shield-child.png)
 
-![The Scene view showing the Shield GameObject positioned with the Rat GameObject.](images/shield-scene.png)
+![De Scèneweergave met het Shield GameObject gepositioneerd met het Rat GameObject.](images/shield-scene.png)
 
-You can also right-click on the parent GameObject and create a new GameObject from a 3D shape. The new 3D shape GameObject will automatically be added as a child GameObject:
+Je kunt ook met de rechtermuisknop op het bovenliggende GameObject klikken en een nieuw GameObject maken vanuit een 3D-vorm. Het nieuwe 3D GameObject wordt automatisch toegevoegd als een onderliggend GameObject:
 
-![The Hierarchy window showing a Cube with its right-click menu extended and the 3D Object 'Sphere' highlighted.](images/right-click-child.png)
+![Het Hierarchy venster toont een Kubus met het snelmenu en het 3D Object 'Sphere' gemarkeerd.](images/right-click-child.png)
